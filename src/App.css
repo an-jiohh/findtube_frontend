@@ -1,38 +1,62 @@
-.App {
+@font-face {
+  font-family: "SUITE-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+#root {
+  font-family: "SUITE-Regular";
+}
+
+body {
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* .mainBox {
+  background-color: #e2e2e2;
+  width: 1000px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.input-form-container {
+  background-color: #e2e2e2;
+  width: 50%;
+  padding: 20px;
+  margin: 0 auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.script-scrollable-div {
+  max-height: 200px;
+  overflow-y: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.videoInfoBox {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.videoInfoBox .image {
+  padding: 10px;
+  width: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.videoInfoBox img {
+  width: 100%;
 }
+
+.videoInfoBox .info {
+  padding-right: 10px;
+  padding-right: 20px;
+  width: 50%;
+}
+
+.videoInfoBox .info div {
+  max-height: 300px;
+  overflow-y: auto;
+} */
