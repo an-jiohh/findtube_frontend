@@ -30,7 +30,7 @@ const ChannelAnalysis = () => {
   const getTitle = async () => {
     try {
       const response = await axios.get(
-        `https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=${id}&key=AIzaSyCWtIQaWr4UMfnbyp7NvtpE2l0mZJo_mYw`
+        `https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=${id}&key=KEY`
       );
       console.log(response.data.items);
       if (response.data.items.length == 0) {
